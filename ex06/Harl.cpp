@@ -6,7 +6,7 @@
 /*   By: lelanglo <lelanglo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 14:36:37 by lelanglo          #+#    #+#             */
-/*   Updated: 2025/02/13 11:12:55 by lelanglo         ###   ########.fr       */
+/*   Updated: 2025/02/12 15:53:40 by lelanglo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void Harl::error()
 	std::cout << "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA FIRE !\n";
 }
 
-void Harl::complain(std::string level)
+void	Harl::complain(std::string level)
 {
 	void (Harl::*ptr_type[4])() = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
 	std::string	levels[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
