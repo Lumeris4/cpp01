@@ -6,7 +6,7 @@
 /*   By: lelanglo <lelanglo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 15:53:49 by lelanglo          #+#    #+#             */
-/*   Updated: 2025/02/13 11:11:35 by lelanglo         ###   ########.fr       */
+/*   Updated: 2025/02/14 11:41:59 by lelanglo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,12 @@ int main(int ac, char **av)
 		case 0:
 			std::cout << "[ DEBUG ]\n";
 			harl.complain("DEBUG");
-			break;
 		case 1:
 			std::cout << "[ WARNING ]\n";
 			harl.complain("WARNING");
-			break;
 		case 2:
 			std::cout << "[ INFO ]\n";
 			harl.complain("INFO");
-			break;
 		case 3:
 			std::cout << "[ ERROR ]\n";
 			harl.complain("ERROR");
